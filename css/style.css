@@ -1,0 +1,135 @@
+/* Global styles */
+
+*  #hover-effect {
+    width: 200px;
+    height: 200px;
+    background-color: #36ce3d;
+    transition: background-color 0.2s ease-in-out;
+  }
+{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  p {
+    margin: 0 0 1em 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  input, textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 0;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    width: 100%;
+    box-shadow: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Header styles */
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 1em;
+  }
+  
+  nav a {
+    font-weight: 600;
+  }
+  
+  /* Main styles */
+  
+  main {
+    max-width: 960px;
+    margin: 2em auto;
+    padding: 0 1em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Footer styles */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+ 
