@@ -1,4 +1,4 @@
-const speed = 2;
+const speed = 7;
 const animate = (e) => {
   // return if already animating
   if (e.target.getAttribute("data-filling") === "true") return;
@@ -48,9 +48,9 @@ const setLabelGlitch = (elements, label) => {
 };
 
 const init = () => {
-  setGlitch(document.querySelectorAll("h1"));
+ // setGlitch(document.querySelectorAll("h1"));
   setGlitch(document.querySelectorAll("h2"));
-  setGlitch(document.querySelectorAll("h3"));
+ // setGlitch(document.querySelectorAll("h3"));
   setGlitch(document.querySelectorAll("h4"));
   setGlitch(document.querySelectorAll("h5"));
   setGlitch(document.querySelectorAll("h6"));
