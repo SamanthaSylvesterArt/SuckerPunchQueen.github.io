@@ -2,18 +2,18 @@ body {
   background-color: black;
   height: 100vh;
   margin: 0rem;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 @keyframes rotate {
   from {
     rotate: 0deg;
   }
-
+  
   50% {
     scale: 1 1.5;
   }
-
+  
   to {
     rotate: 360deg;
   }
@@ -31,6 +31,7 @@ body {
   background: linear-gradient(to right, aquamarine, mediumpurple);
   animation: rotate 20s infinite;
   opacity: 0.8;
+  will-change: transform;
 }
 
 #blur {
@@ -38,7 +39,7 @@ body {
   width: 100%;
   position: absolute;
   z-index: 2;
-  backdrop-filter: blur(12vmax);
+  backdrop-filter: blur(8vmax);
 }
 
 h1 {
