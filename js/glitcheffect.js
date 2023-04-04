@@ -1,4 +1,4 @@
-const speed = 7;
+const speed = 10;
 const animate = (e) => {
   // return if already animating
   if (e.target.getAttribute("data-filling") === "true") return;
@@ -54,6 +54,7 @@ const init = () => {
   setGlitch(document.querySelectorAll("h4"));
   setGlitch(document.querySelectorAll("#link"));
   setGlitch(document.querySelectorAll("h6"));
+  setGlitch(document.querySelectorAll("h7"));
 
   // glitch radio label on input change
   // pass null to indicate that previousSibling should be used to target label
