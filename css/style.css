@@ -13,7 +13,7 @@ nav {
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
   position: fixed; 
   top: 0;
-  z-index: 3;
+  z-index: 4;
   text-align: left; 
 }
 nav ul {
@@ -73,7 +73,7 @@ nav ul li a:hover {
 }
 
 #blur {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   backdrop-filter: blur(8vmax);
   top: -10px;
@@ -122,7 +122,7 @@ h3 {
   position: relative;
   /*left: 50%;*/
   /* top: 50%;*/
-  z-index: 2;
+  z-index: 5;
 }
 h4{
   font-family: 'Open Sans';
