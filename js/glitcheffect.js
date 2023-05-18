@@ -50,11 +50,11 @@ const setLabelGlitch = (elements, label) => {
 const init = () => {
  // setGlitch(document.querySelectorAll("h1"));
   setGlitch(document.querySelectorAll("h2"));
- // setGlitch(document.querySelectorAll("h3"));
+ setGlitch(document.querySelectorAll("h3"));
   setGlitch(document.querySelectorAll("h4"));
   setGlitch(document.querySelectorAll("#link"));
-  setGlitch(document.querySelectorAll("h6"));
-  setGlitch(document.querySelectorAll("h7"));
+   //setGlitch(document.querySelectorAll("h6"));
+  //setGlitch(document.querySelectorAll("h7"));
 
   // glitch radio label on input change
   // pass null to indicate that previousSibling should be used to target label

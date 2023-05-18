@@ -11,6 +11,7 @@
 
 nav {
   position: fixed;
+  padding-bottom: 50px;
   font-family: 'Open Sans';
   font-size: clamp(2rem, 1vw, 1rem);
   color: rgb(255, 255, 255);
@@ -87,33 +88,38 @@ h1 {
   font-size: clamp(3rem, 10vw, 10rem);
   color: white;
   white-space: nowrap;
-  padding: 50px;
-  padding-top: 50px;
-  padding-left: 10px;
+  padding-top: 40px;
+  padding-left: 50px;
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
-  position: left;
+  position: relative;
   text-shadow: #000000;
-  z-index:2;
+  z-index:3;
   
 }
 
 h2{  
   color: white;
   white-space: pre-wrap;
-  padding: 0rem clamp(1rem, 2vw, 3rem);
+  
+  padding-left: 50px;
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
   z-index: 5;
   position: relative;
 }
 h3 {
   font-family: 'Open Sans';
-  font-size: clamp(1rem, 5vw, 5rem);
+  font-size: clamp(3rem, 1vw, 1rem);
   color: white;
-  white-space: nowrap;
-  padding: 0rem clamp(1rem, 2vw, 3rem);
-  border-radius: clamp(1rem, 5vw, 1rem);
-  z-index: 5;
-  position: inherit;
+  white-space: pre-wrap;
+  padding-left: 50px;
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  z-index: 3;
+}
+.ResumeButton{
+  color: aqua;
+}
+.ResumeButton:visited{
+  color: aqua;
 }
 h4{
   font-family: 'Open Sans';
@@ -121,27 +127,56 @@ h4{
   color: white;
   white-space: pre-wrap;
   padding: 0rem clamp(1rem, 2vw, 3rem);
+  
+  padding-left: 50px;
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
   z-index: 3;
 }
 h5 {
   font-family: 'Open Sans';
-  font-size: clamp(1rem, 5vw, 5rem);
+  font-size: clamp(4rem, 5vw, 5rem);
   color: aqua;
   white-space: nowrap;
-  padding: 0rem clamp(1rem, 2vw, 3rem);
+  padding-left: 50px;
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
   z-index: 3;
 }
+h6{ 
+  font-family: 'Open Sans'; 
+  color: white;
+  white-space: pre-wrap;
+  font-size: clamp(1rem, 0vw, 0rem);
+  padding-left: 50px;
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  z-index: 5;
+  position: relative;
+}
+h7{
+  font-family: 'Open Sans'; 
+  color: white;
+  white-space: pre-wrap;
+  font-size: clamp(3rem, 0vw, 0rem);
+  padding-left: 50px;
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  z-index: 5;
+  position: relative;
+}
 a{
   color: aqua;
-  text-decoration: none;
+  text-decoration: underline;
+  font-family: 'Open Sans';
+  white-space: pre-wrap;
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  position: relative;
+
 }
 
 a:visited {
   color: rgb(255, 0, 221);
+  text-decoration: underline;
   
 }
+
 .speed-option {
   appearance: none;
   -webkit-appearance: none;
