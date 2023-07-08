@@ -73,7 +73,7 @@
     --card-color: hsl(260deg 100% 3%);
     --text-color: hsl(260deg 10% 55%);
     --card-radius: 1.6vw;
-    --card-width: 30vw;
+    --card-width: 40vw;
     --border-width: 3px;
     --bg-size: 1;
     --hue: 0;
@@ -92,6 +92,7 @@
 h1 {
     position: fixed;
     top: 10px;
+    
 }
 nav {
     position: fixed;
@@ -158,6 +159,7 @@ body {
 
 
 .tile {
+    top: 20px;
     width: var(--card-width);
     width: min(480px, var(--card-width));
     aspect-ratio: 1.5/1;
